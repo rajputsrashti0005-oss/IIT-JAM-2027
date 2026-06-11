@@ -1,0 +1,179 @@
+                body {
+                    background-color: rgb(211, 207, 201);
+                    margin: 0;
+                    overflow-y: auto;
+                }
+                
+                nav {
+                    text-align: center;
+                }
+                
+                nav ul {
+                    padding: 0;
+                }
+                
+                nav ul li {
+                    display: inline-block;
+                    font-size: xx-large;
+                    margin-right: 20px;
+                }
+                
+                nav ul li a {
+                    text-decoration: none;
+                    color: rgb(16, 16, 86);
+                }
+                
+                .img {
+                    width: 100%;
+                    max-width: 1200px;
+                    height: auto;
+                    display: block;
+                    margin: auto;
+                }
+                
+                .hero {
+                    text-align: center;
+                    margin-top: 20px;
+                }
+                
+                .btn {
+                    position: absolute;
+                    top: 80%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: navy;
+                    color: white;
+                    padding: 12px 25px;
+                    text-decoration: none;
+                    border-radius: 8px;
+                }
+                
+                footer {
+                    text-align: center;
+                    padding: 20px;
+                }
+                
+                .btn:hover {
+                    background-color: blue;
+                }
+                
+                html {
+                    scroll-behavior: smooth;
+                }
+                
+                #notes {
+                    text-align: center;
+                    padding: 40px;
+                }
+                
+                #notes a {
+                    display: inline-block;
+                    margin: 10px;
+                    padding: 10px 20px;
+                    background-color: navy;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+                
+                #notes {
+                    list-style: none;
+                    padding: 0;
+                }
+                
+                #about {
+                    text-align: center;
+                    padding: 40px;
+                }
+                
+                footer {
+                    background-color: navy;
+                    color: white;
+                    text-align: center;
+                    padding: 20px;
+                    margin-top: 40px;
+                }
+                
+                nav a {
+                    text-decoration: none;
+                    color: navy;
+                    font-size: 24px;
+                    margin: 0 15px;
+                    font-weight: bold;
+                }
+                
+                nav a:hover {
+                    color: blue;
+                }
+                
+                #pyqs {
+                    text-align: center;
+                    padding: 40px;
+                }
+                
+                #pyqs a {
+                    display: inline-block;
+                    margin: 10px;
+                    padding: 10px 20px;
+                    background-color: navy;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+                
+                #syllabus {
+                    text-align: center;
+                    padding: 40px;
+                }
+                
+                #syllabus a {
+                    display: inline-block;
+                    margin: 10px;
+                    padding: 10px 20px;
+                    background-color: navy;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+                
+                #contact {
+                    text-align: center;
+                    padding: 40px;
+                }
+                
+                @media(max-width:768px) {
+                    nav a {
+                        display: block;
+                        margin: 10px 0;
+                    }
+                    .img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    .btn {
+                        font-size: 10px;
+                        padding: 10px 15px;
+                    }
+                }
+                
+                header p {
+                    font-size: 20px;
+                    text-align: center;
+                }
+                
+                #notes a,
+                #pyq a,
+                #sullabus a {
+                    display: inline-block;
+                    margin: 10px;
+                    padding: 12px 25px;
+                    background-color: navy;
+                    text-decoration: none;
+                    border-radius: 8px;
+                }
+                
+                #notes a:hover,
+                #pyq a:hover,
+                #sullabus a:hover {
+                    background-color: blue;
+                }
